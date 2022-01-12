@@ -16,6 +16,8 @@
 		5831EDAC277B6B13002D0F38 /* TwoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831EDAB277B6B13002D0F38 /* TwoListViewController.swift */; };
 		5831EDAE277B74EA002D0F38 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831EDAD277B74EA002D0F38 /* DataManger.swift */; };
 		5831EDB0277B7804002D0F38 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831EDAF277B7804002D0F38 /* Person.swift */; };
+		58A58F94278DC93F003B9B44 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A58F93278DC93F003B9B44 /* TabBarViewController.swift */; };
+		58A58F96278DCB6F003B9B44 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A58F95278DCB6F003B9B44 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5831EDAB277B6B13002D0F38 /* TwoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoListViewController.swift; sourceTree = "<group>"; };
 		5831EDAD277B74EA002D0F38 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 		5831EDAF277B7804002D0F38 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		58A58F93278DC93F003B9B44 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		58A58F95278DCB6F003B9B44 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,9 @@
 		5831EDA3277B57D9002D0F38 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				58A58F93278DC93F003B9B44 /* TabBarViewController.swift */,
 				5831EDA9277B6AF4002D0F38 /* OneListViewController.swift */,
+				58A58F95278DCB6F003B9B44 /* DetailsViewController.swift */,
 				5831EDAB277B6B13002D0F38 /* TwoListViewController.swift */,
 			);
 			path = ViewControllers;
@@ -198,7 +204,9 @@
 				5831EDAE277B74EA002D0F38 /* DataManger.swift in Sources */,
 				5831EDB0277B7804002D0F38 /* Person.swift in Sources */,
 				5831ED90277B5771002D0F38 /* AppDelegate.swift in Sources */,
+				58A58F96278DCB6F003B9B44 /* DetailsViewController.swift in Sources */,
 				5831ED92277B5771002D0F38 /* SceneDelegate.swift in Sources */,
+				58A58F94278DC93F003B9B44 /* TabBarViewController.swift in Sources */,
 				5831EDAA277B6AF4002D0F38 /* OneListViewController.swift in Sources */,
 				5831EDAC277B6B13002D0F38 /* TwoListViewController.swift in Sources */,
 			);

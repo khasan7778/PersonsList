@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="7313.04347826087" y="-573.21428571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="jDl-pV-3MD">
             <objects>
-                <viewController id="EkV-YT-i9q" sceneMemberID="viewController">
+                <viewController id="EkV-YT-i9q" customClass="DetailsViewController" customModule="PersonsList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VNO-7n-wMF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,6 +76,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lJv-xc-Ikg"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="SwA-2P-Hon" id="Lkj-Pn-Jl4"/>
+                        <outlet property="phoneLabel" destination="bSG-7t-8vr" id="zFf-ql-YGA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmx-2C-3Xf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -100,7 +104,7 @@
         <!--Persons List-->
         <scene sceneID="wib-nx-as1">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kIr-Hw-YEG" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kIr-Hw-YEG" customClass="TabBarViewController" customModule="PersonsList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Persons List" id="0eO-S9-rB1"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9wy-SZ-65c">
